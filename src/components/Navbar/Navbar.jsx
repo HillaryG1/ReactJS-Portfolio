@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import './Navbar.css'
-// import logo from '../../assets/logo.svg'
 import underline from '../../assets/nav_underline.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open from '../../assets/menu_open.svg'
@@ -21,7 +20,10 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      {/* <img src={logo} alt="" /> */}
+      <h2>HILLARY GILBERT</h2>
+      <div className="logo-img">
+      <img  src={underline} alt='' width={30} />
+      </div>
       <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
       <ul ref={menuRef} className="nav-menu">
         <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />

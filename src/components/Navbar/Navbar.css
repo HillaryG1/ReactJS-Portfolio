@@ -11,6 +11,20 @@
   gap: 60px;
   font-size: 20px;
 }
+ h2 {
+  font-family: Outfit;
+  font-weight: 600;
+  font-size: 25px; 
+  padding: 0;
+ }
+ .logo-img {
+  margin-left: 177px;
+  margin-top: 10px;
+  width: 5px;
+  position: absolute;
+  z-index: -1;
+ }
+
 .nav-connect {
   padding: 20px 40px;
   border-radius: 50px;
@@ -81,4 +95,16 @@
     flex-direction: row;
     gap: 20px;
   }
+  h2 {
+    font-size: 18px;
+  }
+
+  .logo-img {
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 5px;
+    position: absolute;
+    z-index: -1;
+   }
+  
 }
