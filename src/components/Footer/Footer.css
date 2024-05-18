@@ -44,7 +44,7 @@
   font-size: 20px;
   padding: 22px 50px;
   border-radius: 50px;
-  background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+  background: linear-gradient(264deg, #00FF00 -5.09%, #B415FF 106.28%);
   cursor: pointer;
   transition: 0.3s;
 }
@@ -74,18 +74,12 @@
     gap: 50px;
   }
   .footer-top-left img {
-    width: 170px;
-   
-    
+    width: 150px;
   }
-
   .footer-bottom {
     display: flex;
     flex-direction: column-reverse;
     margin-bottom: 50px;
   }
-
-
-
 
 }
